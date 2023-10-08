@@ -1,0 +1,83 @@
+@media screen and (min-width: 320px) {
+    .container {
+        max-width: 320px;
+        padding: 0 16px;
+    }
+
+    .advantage-border-icons {
+        display: none;
+    }
+
+    .advantage-title {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 16px;
+    }
+
+    .advantage-list {
+        gap: 72px 24px;
+    }
+
+    .advantage-list-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .advantage-border-icons {
+        display: none;
+    }
+
+    .advantage-title {
+        text-align: start;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    }
+
+    .team-list {
+        gap: 64px;
+    }
+
+    .team-list-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .portfolio-list {
+        gap: 72px 24px;
+    }
+
+    .portfolio-item {
+        width: calc((100%-24px)/2);
+    }
+}
+
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+    }
+
+    .team-list-item {
+        width: calc((100% - 72px) / 4);
+    }
+    
+    .portfolio-list {
+        gap: 48px 24px;
+    }
+
+    .portfolio-item {
+        width: calc((100%-48px)/3);
+    }
+}

@@ -44,7 +44,7 @@ img {
 }
 
 .container{
-    max-width: 1158px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -226,10 +226,12 @@ address {
 
 .advantage-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 .advantage-list-item {
-    width: calc((100% - 72px) / 4);
+    /* width: calc((100% - 72px) / 4); */
+    flex-basis: 100%;
 }
 
 .advantage-border-icons {
@@ -278,12 +280,15 @@ address {
 }
 .team-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 72px;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 .team-list-item {
-    width: calc((100% - 72px) / 4);
+    /* width: calc((100% - 72px) / 4); */
+    flex-basis: 100%;
     border-radius: 0 0 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
@@ -353,14 +358,14 @@ address {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
+    gap: 48px;
     padding: 0;
     margin: 0;
 }
 
 .portfolio-item {
-    width: calc((100%-48px)/3);
+    /* width: calc((100%-48px)/3); */
+    flex-basis: 100%;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -541,11 +546,11 @@ address {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-open {
+/* .is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-}
+} */
 
 .modal {
     position: absolute;
