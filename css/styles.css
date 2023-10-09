@@ -168,6 +168,16 @@ address {
     color: var(--color-hover);
 }
 
+.button-menu {
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+}
+
 /* hero section */
 .hero-section {
     background-image: linear-gradient(
@@ -523,7 +533,7 @@ address {
     
 .button-subscribe:hover,
 .button-subscribe:focus {
-        background-color: var(--color-hover);
+    background-color: var(--color-hover);
     }
 
 .button-subscribe-icon {
