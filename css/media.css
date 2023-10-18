@@ -37,6 +37,9 @@
         max-width: 288px;
     }
     /* Advantages section 320 */
+    .section {
+        padding: 96px 0;
+    }
     .advantage-border-icons {
         display: none;
     }
@@ -52,7 +55,32 @@
     }
     /* Team section 320 */
     /* Portfolio section 320 */
-    
+    /* Footer section 320 */
+    .footer-section {
+        padding: 97.5px 0;
+    }
+    .container {
+        display: block;
+    }
+    .box-logo {
+        margin: 0 auto;
+        margin-bottom: 72px;
+    }
+    .logo-in-footer {
+        margin-bottom: 17.5px;
+    }
+    .box-socials {
+        margin-right: 0;
+        margin-bottom: 72px;
+        text-align: center;
+    }
+    .footer-text {
+        max-width: 100%;
+    }
+    .footer-socials-list {
+        justify-content: center;
+    }
+
 }
 
 
@@ -90,6 +118,9 @@
         max-width: 496px;
     }
     /* Advantages section 768 */
+    .advantage-section {
+        padding: 96px 0;
+    }
     .advantage-list {
         gap: 72px 24px;
     }
@@ -104,6 +135,9 @@
     }
 
     /* Team section 768 */
+    .team-section {
+        padding: 96px 0;
+    }
     .team-list {
         gap: 64px 24px;
     }
@@ -112,6 +146,7 @@
     }
 
     /* Portfolio section 768 */
+    
     .portfolio-list {
         gap: 72px 24px;
     }
