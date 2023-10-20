@@ -95,12 +95,15 @@
         margin: 0 auto;
     }
 
-    /* Modal */
+    /* Modal 320px*/
     .modal {
         width: 288px;
         min-height: 623px;
         padding: 72px 16px 16px 16px;
     }
+
+    /* Mobile menu 320px */
+
 }
 
 
@@ -215,6 +218,11 @@
         width: 264px;
         height: 40px;
     }
+
+    /* Mobile menu 768px */
+    .mobile-menu-container {
+        display: none;
+    }
 }
 
 
@@ -295,5 +303,10 @@
     }
     .box-socials {
         margin-right: auto;
+    }
+
+    /* Mobile menu 1158px */
+    .mobile-menu-container {
+        display: none;
     }
 }
