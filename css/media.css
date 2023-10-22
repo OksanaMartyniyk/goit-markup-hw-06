@@ -98,12 +98,11 @@
     /* Modal 320px*/
     .modal {
         width: 288px;
-        min-height: 623px;
+        max-height: 623px;
         padding: 72px 16px 16px 16px;
     }
 
     /* Mobile menu 320px */
-
 }
 
 
